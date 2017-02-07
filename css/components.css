@@ -1,0 +1,27 @@
+.head--menu {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu--items {
+  display: inline-block;
+}
+
+.menu--items + .menu--items {
+  margin-left: 10px;
+}
+.menu--button {
+  border: solid 10px black;
+  background: white;
+  padding: 10px;
+}
+
+.menu--button:hover {
+  border: solid 10px black;
+  background: black;
+  cursor: pointer;
+}
+
+.menu--button.button--text:hover, .menu--button.head--title:hover {
+  color: white;
+}
