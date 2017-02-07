@@ -25,3 +25,22 @@
 .menu--button.button--text:hover, .menu--button.head--title:hover {
   color: white;
 }
+
+.foot--button {
+  border: solid 10px black;
+  background: white;
+  padding: 10px;
+}
+
+.foot--button:hover {
+  border: solid 10px black;
+  background: black;
+  cursor: pointer;
+}
+
+
+.box--container {
+  border: solid 10px white;
+  padding: 10px;
+  position: relative;
+}

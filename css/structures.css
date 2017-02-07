@@ -3,6 +3,12 @@
   display: block;
 }
 
+.column-1 {
+  width: 100%;
+  box-sizing: border-box;
+  float: left;
+  padding: 10px;
+}
 .column-2 {
   width: 50%;
   box-sizing: border-box;
