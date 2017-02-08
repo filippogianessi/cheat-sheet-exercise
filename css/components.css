@@ -11,14 +11,22 @@
   margin-left: 10px;
 }
 .menu--button {
-  border: solid 5px black;
+  border-top: solid 2px black;
+  border-right: solid 6px black;
+  border-left: solid 2px black;
+  border-bottom: solid 6px black;
   background: white;
   padding: 10px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
 }
 
 .menu--button:hover {
-  border: solid 5px black;
-  background: black;
+  border-top: solid 2px black;
+  border-right: solid 2px black;
+  border-left: solid 2px black;
+  border-bottom: solid 2px black;
+  background: white;
   cursor: pointer;
 }
 
@@ -47,7 +55,10 @@
 
 
 .box--container {
-  border: solid 2px black;
+  border-top: solid 2px black;
+  border-right: solid 6px black;
+  border-left: solid 2px black;
+  border-bottom: solid 6px black;
   background: white;
   padding: 20px;
   position: relative;
