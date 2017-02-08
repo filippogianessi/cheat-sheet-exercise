@@ -26,11 +26,10 @@
   border-right: solid 2px black;
   border-left: solid 2px black;
   border-bottom: solid 2px black;
-  background: white;
   cursor: pointer;
 }
 
-.menu--button.button--text:hover, .menu--button.head--title:hover {
+.menu--button.button--text:hover {
   color: white;
 }
 
@@ -39,7 +38,10 @@
 }
 
 .foot--button {
-  border: solid 5px black;
+  border-top: solid 2px black;
+  border-right: solid 6px black;
+  border-left: solid 2px black;
+  border-bottom: solid 6px black;
   background: white;
   padding: 10px;
   transition: all .35s ease-in-out;
@@ -47,8 +49,10 @@
 }
 
 .foot--button:hover {
-  border: solid 5px black;
-  background: black;
+  border-top: solid 2px black;
+  border-right: solid 2px black;
+  border-left: solid 2px black;
+  border-bottom: solid 2px black;
   cursor: pointer;
   margin: 0 10px;
 }
@@ -82,4 +86,18 @@
   border-radius: 5px;
   cursor: pointer;
   margin: 10px 10px 10px 15px;
+}
+
+.tag {
+  border-radius: 7px;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 2px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+}
+
+.tag:hover {
+  cursor: pointer;
+  margin: 2px 30px 2px 30px;
 }

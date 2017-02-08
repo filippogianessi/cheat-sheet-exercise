@@ -16,6 +16,12 @@
   line-height: 2.2;
 }
 
+.tag--text {
+  font-size: 1em;
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+}
+
 a, a:hover {
   text-decoration: none;
 }
@@ -33,9 +39,6 @@ a, a:hover {
   font-weight: 500;
 }
 
-.text:hover {
-  color: white;
-}
 
 .box--text {
   font-size: 1.5em;
