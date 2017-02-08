@@ -1,0 +1,68 @@
+/*border colors*/
+
+.border-is-primary {
+  border-top: solid 2px #50E3C2;
+  border-right: solid 2px #50E3C2;
+  border-bottom: solid 4px #50E3C2;
+  border-left: solid 2px #50E3C2;
+}
+.border-is-primary:hover {
+  background: #50E3C2;
+}
+.border-is-info {
+  border-top: solid 2px blue;
+  border-right: solid 2px blue;
+  border-bottom: solid 4px blue;
+  border-left: solid 2px blue;
+}
+.border-is-info:hover {
+  background: blue;
+}
+.border-is-light {
+  border-top: solid 2px #e6e6e6;
+  border-right: solid 2px #e6e6e6;
+  border-bottom: solid 4px #e6e6e6;
+  border-left: solid 2px #e6e6e6;
+}
+.border-is-light:hover {
+  background: #e6e6e6;
+}
+.border-is-dark {
+  border-top: solid 2px #333;
+  border-right: solid 2px #333;
+  border-bottom: solid 4px #333;
+  border-left: solid 2px #333;
+}
+.border-is-dark:hover {
+  background: #333;
+}
+.border-is-black {
+  border: solid 2px #000;
+}
+.border-is-warning {
+  border-top: solid 2px #ffff00;
+  border-right: solid 2px #ffff00;
+  border-bottom: solid 4px #ffff00;
+  border-left: solid 2px #ffff00;
+}
+.border-is-warning:hover {
+  background: #ffff00;
+}
+.border-is-danger {
+  border-top: solid 2px #ff0000;
+  border-right: solid 2px #ff0000;
+  border-bottom: solid 4px #ff0000;
+  border-left: solid 2px #ff0000;
+}
+.border-is-danger:hover {
+  background: #ff0000;
+}
+.border-is-success {
+  border-top: solid 2px #21D369;
+  border-right: solid 2px #21D369;
+  border-bottom: solid 4px #21D369;
+  border-left: solid 2px #21D369;
+}
+.border-is-success:hover {
+  background: #21D369;
+}

@@ -1,0 +1,50 @@
+/*backgrounds*/
+
+.bg-is-primary {
+  background: #50E3C2;
+}
+.bg-is-primary:hover {
+  background: black;
+}
+
+.bg-is-light {
+  background: #e6e6e6;
+}
+.bg-is-light:hover {
+  background: black;
+}
+
+.bg-is-dark {
+  background: #333;
+}
+.bg-is-dark:hover {
+  background: black;
+}
+
+.bg-is-warning {
+  background: #ffff00;
+}
+.bg-is-warning:hover {
+  background: black;
+}
+
+.bg-is-danger {
+  background: #ff0000;
+}
+.bg-is-danger:hover {
+  background: black;
+}
+
+.bg-is-success {
+  background: #21D369;
+}
+.bg-is-success:hover {
+  background: black;
+}
+
+.bg-is-info {
+  background: blue;
+}
+.bg-is-info:hover {
+  background: black;
+}
