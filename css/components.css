@@ -11,13 +11,13 @@
   margin-left: 10px;
 }
 .menu--button {
-  border: solid 10px black;
+  border: solid 5px black;
   background: white;
   padding: 10px;
 }
 
 .menu--button:hover {
-  border: solid 10px black;
+  border: solid 5px black;
   background: black;
   cursor: pointer;
 }
@@ -26,21 +26,49 @@
   color: white;
 }
 
+.menu--button.button--text {
+  color: black;
+}
+
 .foot--button {
-  border: solid 10px black;
+  border: solid 5px black;
   background: white;
   padding: 10px;
+  transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
 }
 
 .foot--button:hover {
-  border: solid 10px black;
+  border: solid 5px black;
   background: black;
   cursor: pointer;
+  margin: 0 10px;
 }
 
 
 .box--container {
-  border: solid 10px white;
-  padding: 10px;
+  border: solid 2px black;
+  background: white;
+  padding: 20px;
   position: relative;
+}
+
+.box--margin {
+  margin: 20px 0;
+}
+
+.button {
+  border-radius: 3px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  margin: 10px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+}
+
+.button:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 10px 10px 15px;
 }

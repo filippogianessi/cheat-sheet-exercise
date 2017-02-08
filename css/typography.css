@@ -3,10 +3,17 @@
   font-family: 'Muli', sans-serif;
   font-weight: 900;
 }
-.button--text {
-  font-size: 2em;
+.head--text--items {
+  font-size: 1.2em;
   font-family: 'Muli', sans-serif;
-  font-weight: 900;
+  font-weight: 700;
+}
+
+.button--text {
+  font-size: 1.2em;
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+  line-height: 2.2;
 }
 
 a, a:hover {
@@ -15,6 +22,7 @@ a, a:hover {
 
 .title {
   font-size: 3em;
+  line-height: 2;
   font-family: 'Muli', sans-serif;
   font-weight: 900;
 }
@@ -33,7 +41,6 @@ a, a:hover {
   font-size: 1.5em;
   font-family: 'Muli', sans-serif;
   font-weight: 500;
-  color: white;
 }
 
 .box--text--thick {
